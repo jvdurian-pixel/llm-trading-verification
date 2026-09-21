@@ -102,6 +102,7 @@ trade data:
 
 Currently supported: crypto perpetuals on Bybit trade data, minute-level to hourly decisions.
 
+- **Audit intake:** https://tally.so/r/q4y7NG
 - **Direct:** [@FIXERLABS](https://x.com/FIXERLABS) on X · [jvdurian-pixel](https://github.com/jvdurian-pixel) on GitHub
 
 ---
