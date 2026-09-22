@@ -2,7 +2,7 @@
 > By the literal pre-registered rule, `gemini-3.8-flash` qualifies (McNemar p = 0.0266). But it differs
 > from `cvd_sign` on only 21 of 5,623 pairs (16 vs 5), every model sits at 49.4–49.7% reweighted at
 > +15m versus 49.5% for `cvd_sign` (a +0.2 pt gap; returns net of fees were not computed in this
-> run), and p = 0.0266 fails Bonferroni across three models (0.0167). The run
+> run), and p = 0.0266 fails Holm across three models (0.0167, the Bonferroni threshold at Holm's first step). The run
 > validated the pipeline, the gate and batch/online parity, not LLM alpha. Generated report follows, unedited.
 
 # Historical replay 20260918T184633Z

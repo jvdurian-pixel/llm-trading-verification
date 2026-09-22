@@ -41,7 +41,7 @@ otherwise. It costs nothing and runs in microseconds.
 | `cvd_sign` (free rule) | 49.5% | $0 |
 | always long | 50.6% | $0 |
 
-Every model sat within half a point of a coin flip, and of the free rule. Simply always going
+Every model sat within 0.6 points of a coin flip and 0.2 points of the free rule. Simply always going
 long did best, which is what a market that drifted up 45% over the window would predict.
 
 ## The trap we nearly fell into
@@ -83,7 +83,8 @@ edge. That is a narrower claim than "LLMs can't trade", and it is the one the da
 
 ## The point
 
-The model was the cheap part: the full run cost about US$14 in compute. The valuable part was the
+The model was the cheap part: the 30,000 calls in the table cost US$11.37, against US$13.92 of
+total Vertex usage for the study. The valuable part was the
 harness that refused to be fooled, including by our own rule.
 
 ---
